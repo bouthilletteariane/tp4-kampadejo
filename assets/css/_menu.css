@@ -16,10 +16,11 @@
 
 /* Bouton du menu */
 .nav__control {
-    background-color: rgba(145, 0, 145, 0.2);
+    background-color: rgba(145, 0, 145, 0);
     border: none;
     padding: 10px;
     min-width: 40px;
+    color:white;
 }
 
 @media (min-width: 600px) {
@@ -30,8 +31,10 @@
 
 .nav__control:hover,
 .nav__control:active {
-    color: #fff;
-    background-color: darkmagenta;
+    color: #ffffff; 
+    
+    background-color: rgba(220, 220, 220, 0.206);
+    
 }
 
 .nav__control:focus {
@@ -47,7 +50,7 @@
      * de modifier l'apparence du outline par défaut des navigateurs.
      */
     outline-offset: -5px;
-    outline: darkmagenta auto 5px;
+    outline: rgb(255, 183, 15) auto 5px;
 }
 
 
@@ -69,20 +72,22 @@
     padding: 0;
     list-style: none;
     max-height: none;
+    
 }
 
 @media (min-width: 600px) {
     .nav__list-item {
         display: inline-block;
+        
     }
 }
 
 /* Liens du menu */
 .nav__link {
-    background-color: rgba(145, 0, 145, 0.2);
+    background-color: rgba(145, 0, 145, 0);
     display: block;
     padding: 5px 10px;
-    width: 100%;
+    width: 10%;
 }
 
 .nav__link:link,
@@ -92,19 +97,36 @@
 }
 
 .nav__link:hover {
-    color: #fff;
-    background-color: darkmagenta;
+    color: #FFD700;
+    /* border-left: 3px solid #FFD700; */
+
+    
+}
+@media (min-width: 600px) {
+    .nav__link:hover {
+        border-left: none;
+        border-bottom: none;
+        width: 100%;
+        color: #FFD700;
+    }
 }
 
 .nav__link:active {
     color: #fff;
-    background-color: magenta;
+    background-color: rgb(164, 164, 164);
 }
 
 
 .nav__link:focus {
-    outline-offset: -5px;
-    outline: darkmagenta auto 5px;
+    outline: none;
+    border-left: 3px solid #FFD700;
+}
+@media (min-width: 600px) {
+    .nav__link:focus {
+        border-left: none;
+        border-bottom: 5px solid #FFD700;
+        width: 100%;
+    }
 }
 
 /** Une classe nav__link--active

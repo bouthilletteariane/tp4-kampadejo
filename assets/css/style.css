@@ -171,6 +171,9 @@ figcaption {
 .nav {
     text-align: right;
 }
+.nav__control {
+ background-color: none ;
+}
 
 
 
