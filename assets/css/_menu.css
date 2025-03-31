@@ -18,7 +18,7 @@
 .nav__control {
     background-color: rgba(145, 0, 145, 0);
     border: none;
-    padding: 10px;
+    padding: 20px;
     min-width: 40px;
     color:white;
 }
@@ -60,10 +60,15 @@
     width: 1em;
     height: 1em;
     /* compléter pour afficher l’icône X */
-}
+    background-image: url("../images/ico-fermer.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+
 
 .nav--closed .nav__control:before {
     /* compléter pour afficher l’icône Hamburger */
+    background-image: url("../images/ico-menu.svg"); 
 }
 
 /* Liste du menu */
