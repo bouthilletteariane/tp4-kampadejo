@@ -49,12 +49,12 @@ Conforme selon les captures-écrans fournies pour écran étroit et pour éc
 ### 6 - versionner le travail 
 #### (2 points)
 - [x] Au moins 2 commits significatifs de l'avancement du travail
-- [ ] Qualité des étiquettes pour comprendre l'historique
+- [x] Qualité des étiquettes pour comprendre l'historique
 #### commentaires
 
 
 ## Note estimée
-<span style='color:red'></span>
+<span style='color:red'>85%</span>
 
 ## Barème
 | Barème | sur 1 |
