@@ -43,7 +43,7 @@ Conforme selon les captures-écrans fournies pour écran étroit et pour éc
 
 ### 5 - optimiser le code par l'ajout de variables
 #### (2 points) 
-- [x] Ajouter et __utiliser__ des variables
+- [ ] Ajouter et __utiliser__ des variables
 #### commentaires
 
 ### 6 - versionner le travail 

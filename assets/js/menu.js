@@ -4,9 +4,9 @@
  *
  */
 
-//*******************
+//***********************
 // Déclaration d'objet(s)
-//*******************
+//***********************
 
 let menu = {
   javascriptEnabled: document.body.classList.add("js"),
